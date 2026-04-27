@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 远程下载 Python 脚本并保存到 /root
-curl -s -o /root/speed_limit.py https://raw.githubusercontent.com/kispers/speed_limit/main/speed_limit.py
+curl -s -o /root/speed_limit.py https://raw.githubusercontent.com/kispers/speed_limit/master/speed_limit.py
 
 # 安装依赖
 apt-get update && apt-get install -y python3-pip
